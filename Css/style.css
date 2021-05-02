@@ -18,7 +18,7 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/banner-Bg.png)no-repeat;
+  background: url(../images/banner-Bg.png)no-repeat;
   background-size: cover;
   background-position: right;
   background-attachment: fixed;
@@ -75,7 +75,7 @@ section{
   }
 }
 
-.btn{
+.button{
   color: #fff;
   background: #404145;
   font-size: 1em;
@@ -90,7 +90,7 @@ section{
   transition: 0.5s ease;
 }
 
-.btn:hover{
+.button:hover{
   background-image: linear-gradient(45deg, #aaacb6, #404145);
 }
 
@@ -580,10 +580,10 @@ body{
   header .navigation.active{
     z-index: 888;
     position: fixed;
-    background: #fff;
+    background: rgba(103, 96, 96, 0.8);
     top: 0;
     right: 0;
-    width: 380px;
+    width: 200px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -602,14 +602,14 @@ body{
   }
 
   header .navigation a:hover{
-    background: #3a6cf4;
+   background-image: linear-gradient(45deg, #aaacb6, #404145);
     color: #fff;
     transition: 0.3s ease;
   }
 
   .menu-btn{
     position: absolute;
-    background: url(images/menu.png)no-repeat;
+    background: url(../images/menu.png)no-repeat;
     background-size: 30px;
     background-position: center;
     width: 40px;
@@ -622,7 +622,7 @@ body{
 
   .menu-btn.active{
     z-index: 999;
-    background: url(images/close.png)no-repeat;
+    background: url(../images/close.png)no-repeat;
     background-size: 25px;
     background-position: center;
     transition: 0.3s ease;
@@ -676,7 +676,7 @@ body{
   }
 }
 
-.scrollToTop-btn{
+.scrollToTop-button{
   z-index: 999;
   position: fixed;
   background: #3a6cf4;
@@ -695,7 +695,7 @@ body{
   transition: all 0.3s ease;
 }
 
-.scrollToTop-btn.active{
+.scrollToTop-button.active{
   right: 20px;
   opacity: 1;
   pointer-events: auto;
